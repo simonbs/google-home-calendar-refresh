@@ -1,12 +1,12 @@
 # google-home-calendar-refresh
 
+![](https://raw.githubusercontent.com/simonbs/google-home-calendar-refresh/master/icon.png)
+
 Google Assistant, and thereby Google Home, only supports reading calendar events from your primary calendar in Google Calendar. If you have any subscriptions, delegates or multiple accounts these are not supported. This is stated in the Google Home help section under [Supported Calendars](https://support.google.com/googlehome/answer/7029002?hl=en).
 
 This project introduces a workaround. The app will read your calenders as iCal feeds and add the events from the feeds to your primary calendar. By relying on iCal feeds, this works both with other Google calendars as well as iCloud calendars.
 
 ⚠️ Before adding events to your calendar, the app will *clear your primary calendar*, mening that all events in the calendar are removed. That means the app assumes that you are not already using your primary calendar but instead are relying on other calendars, e.g. an iCloud calendar for your primary events and another Google calendar for your work calendar. This is done to avoid duplicates.
-
-![](https://raw.githubusercontent.com/simonbs/google-home-calendar-refresh/master/icon.png)
 
 ## Setup
 
