@@ -1,0 +1,31 @@
+{
+  "name": "google-home-calendar-refresh",
+  "version": "1.0.0",
+  "description": "Copies events from iCal feeds to a Google Calendar",
+  "main": "index.js",
+  "scripts": {
+    "token": "node scripts/generate-token.js",
+    "refresh": "node scripts/refresh.js"
+  },
+  "keywords": [
+    "google",
+    "home",
+    "calendar",
+    "refresh",
+    "sync",
+    "ical",
+    "copy"
+  ],
+  "author": "Simon B. Støvring",
+  "license": "ISC",
+  "engines": {
+    "node": "8.1.0"
+  },
+  "dependencies": {
+    "google-auth-library": "=0.10.0",
+    "googleapis": "^22.2.0",
+    "ical.js": "^1.2.2",
+    "request": "^2.83.0",
+    "request-promise-native": "^1.0.5"
+  }
+}

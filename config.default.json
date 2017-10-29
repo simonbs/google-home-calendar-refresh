@@ -1,0 +1,8 @@
+{
+  "calendars": [{
+    "name": "Home",
+    "past_days": 14,
+    "future_days": 14,
+    "url": "" 
+  }]
+}
