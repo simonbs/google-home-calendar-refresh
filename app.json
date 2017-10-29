@@ -1,0 +1,8 @@
+{
+  "name": "google-home-calendar-refresh",
+  "description": "Copies calendar events into a primary Google calendar from iCal feeds thereby making it possible for a Google Home to read the calendar events.",
+  "repository": "https://github.com/simonbs/google-home-calendar-refresh",
+  "logo": "https://github.com/simonbs/google-home-calendar-refresh/raw/master/icon.png",
+  "keywords": [ "google", "home", "calendar", "ical", "smarthome", "smart", "automation" ],
+  "addons": [ "scheduler" ]
+}
