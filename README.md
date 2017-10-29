@@ -17,10 +17,10 @@ The following will guide you through configuring the app.
 The first thing you will need is to enable the Google Calendar API on your Google Account. To enable the API, follow the steps below. The steps can also be found on [Googles Node.js Quickstart guide](https://developers.google.com/google-apps/calendar/quickstart/nodejs).
 
 1. Use [Googles wizard](https://console.developers.google.com/flows/enableapi?apiid=calendar) to create or select a project to turn on the API for.
-2. On the *Add credentials to your project page*, click the *Cancel* button.
-3. At the top of the page, select the *OAuth consent screen* tab. Select an *Email address*, enter a *Product name* if not already set, and click the *Save* button.
-4. Select the application type *Other*, enter a name, and click the *Create* button.
-5. Click *OK* to dismiss the resulting dialog.
+2. On the **Add credentials to your project page**, click the *Cancel* button.
+3. At the top of the page, select the **OAuth consent screen** tab. Select an **Email address**, enter a **Product name** if not already set, and click the **Save** button.
+4. Select the application type **Other**, enter a name, and click the **Create** button.
+5. Click **OK** to dismiss the resulting dialog.
 6. Download the JSON containing your credentials and put it in the root of your repository.
 7. Rename the file `google-client-secret.json`. This is important as the app will look for a file with that name in the root of the project.
 
@@ -36,7 +36,7 @@ Now you are ready to add the calendars you want to put into your primary calenda
 
 1. Copy `config.default.json` to `config.json`.
 2. You will see a sample calendar with no URL. This must be a URL that points to the iCal feed of your calendar. For Google Calendar and iCloud calendars, this can be obtained through their respective web interfaces.
-3. It is important that your calendars have *unique names*.
+3. It is important that your calendars have **unique names**.
 
 You can add as many calendars as you want to. The two attributes `past_days` and `future_days` specify the amount of days to copy events into the past and into the future. If you leave out either attribute, the app will look indefinitely into either direction in time. Leave out both attributes to copy your entire calendar. This is not recommended.
 
